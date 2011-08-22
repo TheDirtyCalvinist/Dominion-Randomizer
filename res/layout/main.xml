@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <Button
+    android:id="@+id/randomizeButton"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Randomize"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:onClick="randomize"/>
+        <Button
+    android:id="@+id/chooseSetsButton"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Choose Sets"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:onClick="chooseSets"/>
+
+    <ListView
+     android:id="@android:id/list"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"/>
+
+</LinearLayout>
+
